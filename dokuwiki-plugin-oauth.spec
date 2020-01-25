@@ -2,7 +2,6 @@
 %define		ver		%(echo %{subver} | tr -d -)
 %define		plugin		oauth
 %define		php_min_version 5.3.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Generic oAuth plugin to login via various services
 Name:		dokuwiki-plugin-%{plugin}
 Version:	%{ver}
